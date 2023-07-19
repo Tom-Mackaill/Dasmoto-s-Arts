@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    width: 98%;
+    height: 100px;
+    background-image: url(/images/pattern.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.banner h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    color: khaki;
+    background: transparent;
+}
+
+.brushes {
+    width: 98%;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    background-color: mediumspringgreen;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.frames {
+    width: 98%;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    background-color: lightcoral;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.paint {
+    width: 98%;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    background-color: skyblue;
+    align-items: center;
+    margin-top: 65px;
+}
+
+
+
+.brushes h3 {
+    font-size: 32px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+}
+
+.frames h3 {
+    font-size: 32px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+}
+
+.paint h3 {
+    font-size: 32px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+}
+
+.img-container {
+    width: 200px;
+    height: 250px;
+    margin-left: 1%;
+    margin-top: 15px;
+    background-image: url(/images/hacksaw.webp);
+    object-fit: contain;
+}
+
+.img-container-1 {
+    width: 200px;
+    height: 250px;
+    margin-left: 1%;
+    margin-top: 15px;
+    background-image: url(/images/finnish.jpeg);
+    object-fit: contain;
+}
+
+.img-container-2 {
+    width: 200px;
+    height: 250px;
+    margin-left: 1%;
+    margin-top: 15px;
+    background-image: url(/images/frames.webp);
+    object-fit: contain;
+}
+
+.img-txt {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.img-txt span {
+    color: blue;
+    font-weight: bold;
+}
